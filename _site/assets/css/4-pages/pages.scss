@@ -1,0 +1,127 @@
+//index
+
+#index{
+	background-color: $grey;
+	padding-top: 100px;
+}
+
+.main-container{
+	background-color: $grey;
+}
+
+.icon-img{
+	margin-top: 15px;
+
+	img{
+		width: 45%;
+	}
+}
+
+.card-text{
+	margin: 10px 15px;
+}
+#s1.col{
+	padding: 5px 10px;
+}
+
+
+#skewing{
+overflow: hidden;
+
+}
+.skewed-bg{
+	background-color: $grey;
+    padding: 200px 0;
+    transform: skew(0deg, 10deg);
+    margin-top: -214px;  
+}
+
+.skewed-bg2{
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0) 53.32%, $grey 100%), #DCEAEF;
+    padding: 60px 0 200px;
+    transform: skew(0deg, -10deg);
+    margin-top: -187px;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    height:580px;
+}
+
+.brand-banner{
+	background-color: $blue;
+	background-image: linear-gradient(173deg, rgba(255, 255, 255, 0) 4%, rgba(189, 106, 204, 0.762342437) 87%);
+	min-height: 450px;
+	margin-top: -172px;
+	margin-bottom: -20px;
+}
+
+.brand-banner div{
+	padding-bottom: 36px;
+
+	img{
+		width: 80%;
+
+		@media only screen and (max-width: $breakpoint-med) {
+		width: 60%;
+		}
+	}
+
+
+}
+
+.unskew{
+	transform: skew(0deg, 10deg);
+}
+
+#s2{
+	padding:80px 20px 0 0;
+
+	img{
+		min-height: 400px;
+	}
+}
+
+#s2 h3{
+	color: $blue;
+}
+
+#s2>div{
+	margin: 10px 15px;
+}
+
+
+ul.caracteristicas{
+ list-style-image: url("/assets/img/bullet.png");
+}
+
+ul.caracteristicas li {
+	padding: 18px 10px;
+}
+
+#skewing h3{
+	color: $dark-blue;
+}
+#s3 h4{
+	text-transform: uppercase;
+	color: $blue;
+	font-size: 1.5em;
+    padding-left: 20px;
+}
+
+.card-img{
+
+}
+
+#product-showcase h2{
+	color: $dark-blue;
+}
+
+#product-showcase h4{
+	color: $blue;
+	text-transform: uppercase;
+	font-size: 1.1em;
+}
+
+#product-showcase .card p{
+	font-size: 1em;
+}
